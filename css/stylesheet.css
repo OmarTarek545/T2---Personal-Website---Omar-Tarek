@@ -1,0 +1,148 @@
+/* img{
+    display: flex;
+    width: 10vw;
+    height: 7vh;
+    margin-left: 300px;
+ 
+
+} */
+body{
+    font-family: 'Cairo', sans-serif;
+
+}
+header{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* flex-direction: space-between; */
+    display: flex;
+ 
+
+}
+button{
+    padding:0 10px;
+    color: rgb(254, 249, 249);
+    border:0px;
+    background-color: rgb(177, 180, 148);
+    transition: all 0.5s ease-in-out;
+
+    
+
+}
+button:hover{
+    color:rgb(0, 17, 252);
+}
+.home{
+    color: blue;
+}
+.home:hover{
+    color: grey;
+}
+.bg{
+     margin:auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items:center;
+    
+    position: relative;
+    filter: brightness(50%);
+    width: 100%;
+}
+
+*{ Margin : 0;}
+.tx1{
+    position: absolute; 
+    top: 400px;
+    left: 530px;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    
+    width: 500vw;
+}
+.tx2{
+    position: absolute;
+    top: 45%;
+    left: 23%;
+    color: white;
+    
+    font-weight: bolder;
+    font-size: 60px;
+    width: 70vw;
+    
+    
+}
+
+
+footer{
+padding-left: 870px;
+
+font-weight: bold;
+font-size: larger;
+}
+p{
+    /* padding-left: 400px; */
+
+font-size: larger;
+align-items: center;
+justify-content: space-evenly;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
+
+}
+
+ 
+.footer1{
+    background-color: rgb(71, 60, 61);
+    height:100px;
+    padding-bottom:50px;
+
+}
+.footer2{
+    padding-right: 1100px;
+    padding-top: 60px;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    
+}
+.footer3{
+padding-left: 1700px;
+}
+.service{
+    margin-top: 3%;
+    text-align: center;
+}
+.service .caption p{
+    width: 40%;
+    margin: auto;
+    padding: 3%;
+    color: gray;
+}
+
+.services div{
+    background-color: rgb(175, 160, 160);
+    width: 30%;
+    height: 30vh;
+    padding: 6% 0%;
+
+}
+.services{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.services div h3{
+    padding: 12% 0%;
+}
+.services p{
+    width: 75%;
+    margin: auto;
+}
+a{
+   text-align: center;
+   margin-left: 47%;
+ }
+
